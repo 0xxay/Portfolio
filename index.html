@@ -3,236 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ayush Sharma - Cybersecurity Detection Engineer. Specialized in Azure Sentinel, Splunk, and AWS cloud security.">
-    <meta name="keywords" content="cybersecurity, SOC analyst, detection engineer, threat hunting, Azure Sentinel, Splunk, AWS">
+    <meta name="description" content="Ayush Sharma - Cybersecurity professional specializing in SOC operations, threat hunting, SIEM (Splunk), and cloud security on AWS.">
+    <meta name="keywords" content="cybersecurity, SOC analyst, threat hunting, Splunk, SIEM, incident response, AWS cloud security, MITRE ATT&CK">
     <meta name="author" content="Ayush Sharma">
-    
-    <!-- Open Graph for Social Sharing -->
+    <meta name="theme-color" content="#0a0a0f">
+
     <meta property="og:title" content="Ayush Sharma | Cybersecurity Portfolio">
-    <meta property="og:description" content="Detection Engineer | Threat Hunter | Cloud Security">
-    <meta property="og:url" content="https://portfolio-ayush.dev">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ayush Sharma | Cybersecurity Portfolio">
-    
-    <title>Ayush Sharma | Cybersecurity Detection Engineer</title>
+    <meta property="og:description" content="SOC Analyst | Threat Hunter | Cloud Security Engineer">
+
+    <title>Ayush Sharma | Cybersecurity Professional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main navigation">
         <div class="container">
-            <div class="logo">Ayush Sharma</div>
+            <div class="logo"><span class="prompt">~/</span>0xxay<span class="prompt">$</span></div>
+            <button class="nav-toggle" aria-label="Toggle navigation menu">[=]</button>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" class="active">./home</a></li>
+                <li><a href="about.html">./about</a></li>
+                <li><a href="projects.html">./projects</a></li>
+                <li><a href="contact.html">./contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Cybersecurity Detection Engineer</h1>
-            <p class="subtitle">Azure Sentinel | Splunk | AWS Cloud Security | Threat Hunting</p>
-            <p class="tagline">M.Tech Cybersecurity @ NFSU | Top 3% on TryHackMe</p>
-            <div class="cta-buttons">
-                <a href="projects.html" class="btn btn-primary">View My Projects</a>
-                <a href="assets/documents/Ayush_Sharma_Resume.pdf" class="btn btn-secondary" download>Download Resume</a>
-            </div>
-        </div>
-    </section>
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <span class="hero-status"><span class="status-dot" aria-hidden="true"></span>SYSTEM ONLINE — OPEN TO OPPORTUNITIES</span>
+                <h1>Ayush Sharma<br><span class="accent">Cybersecurity Professional</span></h1>
+                <p class="subtitle"><span id="typed-text">SOC Analyst | Threat Hunter | Cloud Security</span><span class="cursor">&nbsp;</span></p>
+                <div class="cta-buttons">
+                    <a href="projects.html" class="btn btn-primary">&gt; view_projects</a>
+                    <a href="assets/documents/Ayush_Sharma_Resume.pdf" class="btn btn-secondary" download>&gt; download_resume</a>
+                </div>
 
-    <!-- Featured Projects -->
-    <section id="projects-preview" class="projects-preview">
-        <div class="container">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <!-- Project Card 1 -->
-                <div class="project-card">
-                    <div class="project-icon">🛡️</div>
-                    <h3>Azure Sentinel Detection Engineering</h3>
-                    <p>Built 8+ KQL detection rules with ML-based anomaly detection achieving 85%+ accuracy for threat detection</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Azure Sentinel</span>
-                        <span class="tech-tag">KQL</span>
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">ML</span>
+                <div class="terminal" role="img" aria-label="Terminal window showing profile summary">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">ayush@soc:~</span>
                     </div>
-                    <a href="projects.html#azure-sentinel" class="read-more">Learn More →</a>
-                </div>
-
-                <!-- Project Card 2 -->
-                <div class="project-card">
-                    <div class="project-icon">🔍</div>
-                    <h3>SOC & Threat Hunting Platform</h3>
-                    <p>Designed enterprise SOC lab with 15+ detection rules and real-time threat hunting dashboards using Splunk</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Splunk</span>
-                        <span class="tech-tag">Sysmon</span>
-                        <span class="tech-tag">SPL</span>
-                        <span class="tech-tag">MITRE ATT&CK</span>
+                    <div class="terminal-body">
+                        <span class="line"><span class="prompt">$</span> <span class="cmd">whoami</span></span>
+                        <span class="line">M.Tech Cyber Security @ National Forensic Sciences University</span>
+                        <span class="line"><span class="prompt">$</span> <span class="cmd">cat skills.txt</span></span>
+                        <span class="line">Splunk / Sentinel / Threat Hunting / IR / MITRE ATT&amp;CK / AWS</span>
+                        <span class="line"><span class="prompt">$</span> <span class="cmd">./check_status.sh</span></span>
+                        <span class="line"><span class="ok">[OK]</span> LetsDefend Certified SOC Analyst</span>
+                        <span class="line"><span class="ok">[OK]</span> Top 3% global — TryHackMe</span>
+                        <span class="line"><span class="prompt">$</span> <span class="cursor">&nbsp;</span></span>
                     </div>
-                    <a href="projects.html#splunk-soc" class="read-more">Learn More →</a>
                 </div>
 
-                <!-- Project Card 3 -->
-                <div class="project-card">
-                    <div class="project-icon">☁️</div>
-                    <h3>DevSecOps Pipeline on AWS</h3>
-                    <p>End-to-end CI/CD pipeline with automated security scanning, container vulnerability detection, and EKS deployment</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">AWS</span>
-                        <span class="tech-tag">Docker</span>
-                        <span class="tech-tag">Kubernetes</span>
-                        <span class="tech-tag">Trivy</span>
+                <div class="stats-strip">
+                    <div class="stat">
+                        <div class="stat-value">Top 3%</div>
+                        <div class="stat-label">TryHackMe Global</div>
                     </div>
-                    <a href="projects.html#aws-devsecops" class="read-more">Learn More →</a>
+                    <div class="stat">
+                        <div class="stat-value">4+</div>
+                        <div class="stat-label">Security Projects</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">2</div>
+                        <div class="stat-label">Industry Internships</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">6+</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2>Technical Expertise</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h4>🛡️ SIEM & Threat Detection</h4>
-                    <ul>
-                        <li>Microsoft Sentinel & KQL</li>
-                        <li>Splunk & SPL Query Language</li>
-                        <li>Threat Hunting Methodology</li>
-                        <li>Detection Engineering</li>
-                        <li>Security Event Correlation</li>
-                    </ul>
+        <!-- Featured Projects -->
+        <section id="projects-preview">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">// featured_operations</span>
+                    <h2>Security Projects</h2>
+                    <p>Hands-on enterprise security engineering — from SOC threat hunting labs to automated incident response pipelines.</p>
                 </div>
-                <div class="skill-category">
-                    <h4>☁️ Cloud Security & DevSecOps</h4>
-                    <ul>
-                        <li>AWS (EC2, EKS, ECR, CodePipeline)</li>
-                        <li>Docker & Kubernetes</li>
-                        <li>CI/CD Pipeline Security</li>
-                        <li>Container Vulnerability Scanning</li>
-                        <li>Infrastructure as Code</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h4>🔧 Security Tools</h4>
-                    <ul>
-                        <li>Burp Suite, OWASP ZAP</li>
-                        <li>Nmap, Wireshark, Metasploit</li>
-                        <li>Volatility, FTK Imager</li>
-                        <li>Bandit, Trivy Scanning</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h4>💻 Programming & Languages</h4>
-                    <ul>
-                        <li>Python (Security Scripts)</li>
-                        <li>Bash/Shell Scripting</li>
-                        <li>KQL & SPL Queries</li>
-                        <li>SQL, HTML/CSS</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="card-top">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                            </div>
+                            <span class="card-index">[01]</span>
+                        </div>
+                        <h3>Threat Hunting using Splunk</h3>
+                        <p>Splunk-based SOC threat-hunting lab with Sysmon, Windows Event Logs, and custom detection rules mapped to MITRE ATT&amp;CK.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Splunk</span>
+                            <span class="tech-tag">Sysmon</span>
+                            <span class="tech-tag">MITRE ATT&amp;CK</span>
+                        </div>
+                    </article>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications">
-        <div class="container">
-            <h2>Certifications & Achievements</h2>
-            <div class="certs-grid">
-                <div class="cert-item">
-                    <div class="cert-badge">🏆</div>
-                    <h4>Fortinet NSE 1, 2, 3</h4>
-                    <p>Network Security Expert Certification</p>
-                </div>
-                <div class="cert-item">
-                    <div class="cert-badge">☁️</div>
-                    <h4>AWS Cloud Security</h4>
-                    <p>AWS Cloud Security Foundation</p>
-                </div>
-                <div class="cert-item">
-                    <div class="cert-badge">📋</div>
-                    <h4>ISO 27701 Lead Auditor</h4>
-                    <p>Privacy Information Management</p>
-                </div>
-                <div class="cert-item">
-                    <div class="cert-badge">✅</div>
-                    <h4>LetsDefend SOC Analyst</h4>
-                    <p>Certified SOC Analyst Practitioner</p>
-                </div>
-            </div>
-            <div class="achievements">
-                <p>⭐ Top 3% globally on TryHackMe</p>
-                <p>📚 Completed LetsDefend's SOC Analyst Learning Path</p>
-                <p>🏅 DPDPA Certified</p>
-            </div>
-        </div>
-    </section>
+                    <article class="project-card">
+                        <div class="card-top">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                            </div>
+                            <span class="card-index">[02]</span>
+                        </div>
+                        <h3>SOAR Phishing IR Automation</h3>
+                        <p>Python-based SOAR pipeline automating phishing triage, IOC enrichment, and case generation via VirusTotal, AbuseIPDB, and TheHive.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">VirusTotal</span>
+                            <span class="tech-tag">TheHive</span>
+                        </div>
+                    </article>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2>Professional Experience</h2>
-            <div class="experience-item">
-                <div class="exp-header">
-                    <h3>Security Intern</h3>
-                    <p class="exp-company">NullcyberX, Jaipur</p>
-                    <p class="exp-dates">Jan 2025 – Jul 2025</p>
+                    <article class="project-card">
+                        <div class="card-top">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+                            </div>
+                            <span class="card-index">[03]</span>
+                        </div>
+                        <h3>Zero-Trust Cloud Architecture</h3>
+                        <p>Secure cloud infrastructure built on Zero Trust principles — IAM roles, VPC segmentation, private subnets, and least-privilege controls.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">IAM</span>
+                            <span class="tech-tag">Zero Trust</span>
+                        </div>
+                    </article>
                 </div>
-                <ul class="exp-details">
-                    <li>Conducted vulnerability assessments and security event monitoring</li>
-                    <li>Investigated indicators of compromise and supported incident response</li>
-                    <li>Analyzed network protocols and traffic patterns for anomaly detection</li>
-                    <li>Documented security flaws and implemented defensive patches</li>
-                </ul>
             </div>
-            <div class="experience-item">
-                <div class="exp-header">
-                    <h3>Cloud Intern</h3>
-                    <p class="exp-company">LinuxWorld Informatics Pvt Ltd</p>
-                    <p class="exp-dates">Jun – Jul 2023</p>
-                </div>
-                <ul class="exp-details">
-                    <li>Built web-based platform integrating AWS services with Docker</li>
-                    <li>Implemented Shell-in-a-Box and ChatBot via Python CGI APIs</li>
-                    <li>Gained hands-on experience with cloud infrastructure deployment</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <h2>Let's Connect</h2>
-            <p>Interested in discussing cybersecurity, detection engineering, or opportunities?</p>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/ayushsharma001" target="_blank" class="social-btn">LinkedIn</a>
-                <a href="https://github.com/0xxay" target="_blank" class="social-btn">GitHub</a>
-                <a href="mailto:ayush.sharma.cs.2024@gmail.com" class="social-btn">Email Me</a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Ayush Sharma. Cybersecurity Portfolio | Built with HTML5, CSS3 & GitHub Pages</p>
-            <p class="footer-links">
-                <a href="#home">Home</a> | 
-                <a href="about.html">About</a> | 
-                <a href="projects.html">Projects</a> | 
-                <a href="contact.html">Contact</a> |
-                <a href="assets/documents/Ayush_Sharma_Resume.pdf" download>Resume</a>
-            </p>
+            <p>&copy; 2026 Ayush Sharma — <span class="mono">root@0xxay</span></p>
+            <ul class="footer-links">
+                <li><a href="https://github.com/0xxay" target="_blank" rel="noopener noreferrer">github</a></li>
+                <li><a href="mailto:ayush.sharma.cs.2024@gmail.com">email</a></li>
+                <li><a href="https://www.linkedin.com/in/ayushsharma001" target="_blank" rel="noopener noreferrer">linkedin</a></li>
+            </ul>
         </div>
     </footer>
 

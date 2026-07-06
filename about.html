@@ -3,550 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Ayush Sharma - Cybersecurity Detection Engineer with expertise in threat hunting and cloud security">
+    <meta name="description" content="About Ayush Sharma - Cybersecurity postgraduate with hands-on SOC, threat hunting, and cloud security experience.">
+    <meta name="theme-color" content="#0a0a0f">
     <title>About | Ayush Sharma - Cybersecurity Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main navigation">
         <div class="container">
-            <div class="logo">Ayush Sharma</div>
+            <div class="logo"><span class="prompt">~/</span>0xxay<span class="prompt">$</span></div>
+            <button class="nav-toggle" aria-label="Toggle navigation menu">[=]</button>
             <ul class="nav-links">
-                <li><a href="index.html#home">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">./home</a></li>
+                <li><a href="about.html" class="active">./about</a></li>
+                <li><a href="projects.html">./projects</a></li>
+                <li><a href="contact.html">./contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- About Hero -->
-    <section class="about-hero">
-        <div class="container">
-            <h1>About Me</h1>
-            <p class="subtitle">M.Tech Cybersecurity Student | Detection Engineer | Threat Hunter</p>
-        </div>
-    </section>
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero">
+            <div class="container">
+                <span class="section-label">// cat about.md</span>
+                <h1>About <span style="color: var(--accent);">Me</span></h1>
+                <p class="subtitle">Cybersecurity postgraduate focused on threat detection, incident response, and security automation.</p>
+            </div>
+        </section>
 
-    <!-- Main About Content -->
-    <section class="about-main">
-        <div class="container">
-            <div class="about-content">
-                <!-- Professional Summary -->
-                <div class="about-section">
-                    <h2>Professional Summary</h2>
-                    <p>
-                        I'm a cybersecurity postgraduate student at the National Forensic Sciences University (NFSU), 
-                        Gandhinagar, with hands-on expertise in threat detection, SOC operations, and cloud security. 
-                        My passion lies in detection engineering, threat hunting, and building secure infrastructure to 
-                        protect critical digital assets.
-                    </p>
-                    <p>
-                        With practical experience from security internships and self-directed projects, I've developed 
-                        strong skills in SIEM platforms (Splunk, Microsoft Sentinel), cloud security (AWS), DevSecOps, 
-                        and incident response. I'm committed to staying at the forefront of cybersecurity threats and 
-                        continuously improving my ability to detect, investigate, and remediate security incidents.
-                    </p>
-                </div>
-
-                <!-- Education -->
-                <div class="about-section">
-                    <h2>Education</h2>
-                    
-                    <div class="edu-item">
-                        <h3>Master of Technology (M.Tech) in Cybersecurity</h3>
-                        <p class="edu-institute">National Forensic Sciences University (NFSU), Gandhinagar</p>
-                        <p class="edu-dates">Aug 2025 – May 2027 (In Progress)</p>
-                        <p class="edu-details">
-                            Pursuing advanced cybersecurity education with focus on threat detection, digital forensics, 
-                            and incident response. Completed coursework includes malware analysis, mobile security forensics, 
-                            cloud security, and detection engineering.
-                        </p>
+        <!-- Summary -->
+        <section>
+            <div class="container">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <span class="terminal-dot red"></span>
+                        <span class="terminal-dot yellow"></span>
+                        <span class="terminal-dot green"></span>
+                        <span class="terminal-title">ayush@soc:~/about</span>
                     </div>
-
-                    <div class="edu-item">
-                        <h3>Bachelor of Technology (B.Tech) in Computer Science</h3>
-                        <p class="edu-institute">BK Birla Institute of Engineering and Technology (BKBIET), Pilani</p>
-                        <p class="edu-dates">Aug 2020 – Apr 2024</p>
-                        <p class="edu-details">
-                            Completed undergraduate degree with focus on core computer science fundamentals. 
-                            Strong foundation in algorithms, data structures, networking, and software development.
-                        </p>
+                    <div class="terminal-body">
+                        <span class="line"><span class="prompt">$</span> <span class="cmd">cat summary.txt</span></span>
+                        <span class="line">Cybersecurity postgraduate student with hands-on experience in Cybersecurity Engineering and Security Operations Center (SOC) environments through internships and enterprise security projects. Skilled in security monitoring, alert triage, incident investigation, threat hunting, SIEM (Splunk), endpoint security, vulnerability assessment, cloud security on AWS, and MITRE ATT&amp;CK-based detection engineering.</span>
+                        <span class="line"><span class="prompt">$</span> <span class="cmd">echo $PASSION</span></span>
+                        <span class="line"><span class="ok">Threat detection, incident response, and security automation.</span></span>
                     </div>
-                </div>
-
-                <!-- Career Journey -->
-                <div class="about-section">
-                    <h2>Career Journey</h2>
-                    
-                    <div class="journey-item">
-                        <h3>Security Intern - NullcyberX (Jan 2025 – Jul 2025)</h3>
-                        <p class="journey-highlight">Hands-on experience in vulnerability assessment and incident response</p>
-                        <ul>
-                            <li>Conducted vulnerability assessments and security event monitoring</li>
-                            <li>Analyzed security indicators and investigated incidents</li>
-                            <li>Evaluated network protocols to identify anomalies</li>
-                            <li>Documented security issues and implemented defensive patches</li>
-                        </ul>
-                    </div>
-
-                    <div class="journey-item">
-                        <h3>Cloud Intern - LinuxWorld Informatics Pvt Ltd (Jun – Jul 2023)</h3>
-                        <p class="journey-highlight">Cloud infrastructure and application development experience</p>
-                        <ul>
-                            <li>Built web-based platforms integrating AWS services</li>
-                            <li>Implemented Docker containerization and deployment</li>
-                            <li>Developed Python CGI APIs and chatbot interfaces</li>
-                            <li>Gained hands-on experience with cloud infrastructure</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Core Competencies -->
-                <div class="about-section">
-                    <h2>Core Competencies</h2>
-                    
-                    <div class="competencies-grid">
-                        <div class="competency-block">
-                            <h4>🛡️ Threat Detection & Monitoring</h4>
-                            <ul>
-                                <li>Security event correlation</li>
-                                <li>Real-time threat monitoring</li>
-                                <li>Anomaly detection</li>
-                                <li>Alert tuning & optimization</li>
-                            </ul>
-                        </div>
-
-                        <div class="competency-block">
-                            <h4>🔍 Incident Response & Analysis</h4>
-                            <ul>
-                                <li>Incident investigation</li>
-                                <li>Threat hunting methodology</li>
-                                <li>Root cause analysis</li>
-                                <li>Timeline reconstruction</li>
-                            </ul>
-                        </div>
-
-                        <div class="competency-block">
-                            <h4>☁️ Cloud & Infrastructure Security</h4>
-                            <ul>
-                                <li>AWS security fundamentals</li>
-                                <li>CI/CD pipeline security</li>
-                                <li>Container security</li>
-                                <li>Secure infrastructure design</li>
-                            </ul>
-                        </div>
-
-                        <div class="competency-block">
-                            <h4>🔐 Detection Engineering</h4>
-                            <ul>
-                                <li>KQL & SPL query development</li>
-                                <li>Detection rule creation</li>
-                                <li>MITRE ATT&CK mapping</li>
-                                <li>ML-based anomaly detection</li>
-                            </ul>
-                        </div>
-
-                        <div class="competency-block">
-                            <h4>🛠️ Security Tools & Platforms</h4>
-                            <ul>
-                                <li>Splunk Enterprise SIEM</li>
-                                <li>Microsoft Sentinel/Azure</li>
-                                <li>Vulnerability scanners</li>
-                                <li>Forensic tools</li>
-                            </ul>
-                        </div>
-
-                        <div class="competency-block">
-                            <h4>💻 Programming & Scripting</h4>
-                            <ul>
-                                <li>Python for security</li>
-                                <li>Bash/Shell scripting</li>
-                                <li>SQL queries</li>
-                                <li>HTML/CSS/JavaScript</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Why Cybersecurity? -->
-                <div class="about-section why-section">
-                    <h2>Why Cybersecurity?</h2>
-                    <p>
-                        In today's digital world, cybersecurity is more critical than ever. Organizations face 
-                        sophisticated threats daily, and there's a growing need for skilled professionals who can 
-                        detect, investigate, and respond to these incidents.
-                    </p>
-                    <p>
-                        I'm passionate about building systems that protect organizations and their users. I believe 
-                        that good security comes from a combination of strong detection capabilities, thorough investigation 
-                        skills, and continuous learning. The field of cybersecurity challenges me to stay curious and 
-                        adapt to evolving threats, which is exactly why I love what I do.
-                    </p>
-                </div>
-
-                <!-- Achievements -->
-                <div class="about-section">
-                    <h2>Achievements & Recognition</h2>
-                    
-                    <div class="achievements-list">
-                        <div class="achievement-item">
-                            <span class="achievement-badge">🏆</span>
-                            <div>
-                                <h4>Top 3% on TryHackMe Globally</h4>
-                                <p>Ranked among the top 3% of TryHackMe users globally, demonstrating commitment to hands-on security learning</p>
-                            </div>
-                        </div>
-
-                        <div class="achievement-item">
-                            <span class="achievement-badge">✅</span>
-                            <div>
-                                <h4>LetsDefend SOC Analyst Certification</h4>
-                                <p>Completed comprehensive SOC Analyst learning path covering detection, investigation, and response methodologies</p>
-                            </div>
-                        </div>
-
-                        <div class="achievement-item">
-                            <span class="achievement-badge">🔒</span>
-                            <div>
-                                <h4>Fortinet NSE Certifications (Levels 1, 2, 3)</h4>
-                                <p>Earned Fortinet Network Security Expert certifications demonstrating proficiency in network security</p>
-                            </div>
-                        </div>
-
-                        <div class="achievement-item">
-                            <span class="achievement-badge">☁️</span>
-                            <div>
-                                <h4>AWS Cloud Security Foundation</h4>
-                                <p>Certified in AWS cloud security, understanding cloud security architecture and best practices</p>
-                            </div>
-                        </div>
-
-                        <div class="achievement-item">
-                            <span class="achievement-badge">📋</span>
-                            <div>
-                                <h4>ISO 27701 Certified Lead Auditor</h4>
-                                <p>Privacy Information Management System auditor certification from Mastermind</p>
-                            </div>
-                        </div>
-
-                        <div class="achievement-item">
-                            <span class="achievement-badge">🛡️</span>
-                            <div>
-                                <h4>DPDPA Certified</h4>
-                                <p>Data Privacy & Protection Act certification demonstrating knowledge of privacy regulations</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fun Facts -->
-                <div class="about-section fun-facts">
-                    <h2>Fun Facts About Me</h2>
-                    <ul>
-                        <li>🎯 Loves hands-on lab work - building home labs to practice detection engineering</li>
-                        <li>🔬 Always exploring new security tools and threat intelligence sources</li>
-                        <li>📚 Continuous learner - regularly taking security courses and earning certifications</li>
-                        <li>🎮 Problem-solver at heart - enjoys CTF challenges and security puzzles</li>
-                        <li>🌍 Based in India, passionate about advancing cybersecurity practices globally</li>
-                    </ul>
                 </div>
             </div>
+        </section>
 
-            <!-- Sidebar - Quick Facts -->
-            <aside class="about-sidebar">
-                <div class="quick-facts">
-                    <h3>Quick Facts</h3>
-                    <ul class="facts-list">
-                        <li>
-                            <strong>Current Role:</strong>
-                            <span>M.Tech Student</span>
-                        </li>
-                        <li>
-                            <strong>Specialization:</strong>
-                            <span>Detection Engineering</span>
-                        </li>
-                        <li>
-                            <strong>Primary Skills:</strong>
-                            <span>SIEM, Threat Hunting, Cloud Security</span>
-                        </li>
-                        <li>
-                            <strong>Certifications:</strong>
-                            <span>5+ Industry Certifications</span>
-                        </li>
-                        <li>
-                            <strong>TryHackMe Rank:</strong>
-                            <span>Top 3% Globally</span>
-                        </li>
-                        <li>
-                            <strong>Favorite Tools:</strong>
-                            <span>Splunk, Sentinel, Nmap, Burp Suite</span>
-                        </li>
-                        <li>
-                            <strong>Location:</strong>
-                            <span>India</span>
-                        </li>
-                    </ul>
+        <!-- Experience -->
+        <section>
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">// work_experience</span>
+                    <h2>Experience</h2>
                 </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="timeline-meta">Jan – Jun 2025</span>
+                        <h3>Security Intern</h3>
+                        <p class="org">NullcyberX</p>
+                        <ul>
+                            <li>Assisted in vulnerability assessments and security investigations across enterprise environments.</li>
+                            <li>Monitored security events, network traffic, and endpoint activities to identify suspicious behavior.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-meta">Jun – Jul 2023</span>
+                        <h3>Cloud Intern</h3>
+                        <p class="org">LinuxWorld Informatics Pvt Ltd</p>
+                        <ul>
+                            <li>Developed a secure cloud management platform using AWS, Docker, and Python CGI.</li>
+                            <li>Implemented IAM roles, security groups, VPC configurations, and least-privilege access controls.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                <div class="cta-sidebar">
-                    <h3>Get In Touch</h3>
-                    <p>Interested in discussing cybersecurity, internships, or collaboration opportunities?</p>
-                    <a href="contact.html" class="btn btn-primary">Contact Me</a>
+        <!-- Education -->
+        <section>
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">// education</span>
+                    <h2>Education</h2>
                 </div>
-            </aside>
-        </div>
-    </section>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="timeline-meta">2025 – 2027</span>
+                        <h3>M.Tech Cyber Security</h3>
+                        <p class="org">National Forensic Sciences University</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-meta">2020 – 2024</span>
+                        <h3>B.Tech Computer Science</h3>
+                        <p class="org">B K Birla Institute of Engineering and Technology</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">// skill_matrix</span>
+                    <h2>Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>SIEM &amp; Security Monitoring</h3>
+                        <ul class="skill-list">
+                            <li>Splunk</li>
+                            <li>Microsoft Sentinel</li>
+                            <li>ELK</li>
+                            <li>Sysmon</li>
+                            <li>Security Event Monitoring</li>
+                            <li>Alert Triage</li>
+                            <li>Log Analysis</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 17 10 11 4 5"/><line x1="12" x2="20" y1="19" y2="19"/></svg>Security &amp; Forensic Tools</h3>
+                        <ul class="skill-list">
+                            <li>Nmap</li>
+                            <li>Wireshark</li>
+                            <li>FTK Imager</li>
+                            <li>EnCase</li>
+                            <li>Volatility</li>
+                            <li>Windows Event Viewer</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>Cloud Security</h3>
+                        <ul class="skill-list">
+                            <li>AWS IAM</li>
+                            <li>CloudTrail</li>
+                            <li>VPC</li>
+                            <li>Security Groups</li>
+                            <li>Docker</li>
+                            <li>Kubernetes</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>Security Concepts</h3>
+                        <ul class="skill-list">
+                            <li>SOC</li>
+                            <li>Incident Response</li>
+                            <li>Threat Hunting</li>
+                            <li>Endpoint Security</li>
+                            <li>Threat Intelligence</li>
+                            <li>MITRE ATT&amp;CK</li>
+                            <li>Detection Engineering</li>
+                            <li>Digital Forensics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section>
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">// achievements</span>
+                    <h2>Achievements &amp; Certifications</h2>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                        <p>LetsDefend Certified SOC Analyst &amp; DPDPA Certified</p>
+                    </div>
+                    <div class="achievement">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+                        <p>Fortinet NSE 1, 2, 3 — Fortinet</p>
+                    </div>
+                    <div class="achievement">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+                        <p>AWS Cloud Security Foundations</p>
+                    </div>
+                    <div class="achievement">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        <p>Among global top 3% on TryHackMe</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2024 Ayush Sharma. Cybersecurity Portfolio | Built with HTML5, CSS3 & GitHub Pages</p>
-            <p class="footer-links">
-                <a href="index.html#home">Home</a> | 
-                <a href="about.html">About</a> | 
-                <a href="projects.html">Projects</a> | 
-                <a href="contact.html">Contact</a> |
-                <a href="assets/documents/Ayush_Sharma_Resume.pdf" download>Resume</a>
-            </p>
+            <p>&copy; 2026 Ayush Sharma — <span class="mono">root@0xxay</span></p>
+            <ul class="footer-links">
+                <li><a href="https://github.com/0xxay" target="_blank" rel="noopener noreferrer">github</a></li>
+                <li><a href="mailto:ayush.sharma.cs.2024@gmail.com">email</a></li>
+                <li><a href="https://www.linkedin.com/in/ayushsharma001" target="_blank" rel="noopener noreferrer">linkedin</a></li>
+            </ul>
         </div>
     </footer>
 
     <script src="assets/js/main.js"></script>
-
-    <style>
-        /* About Page Specific Styles */
-        .about-hero {
-            background: linear-gradient(135deg, #1a1a2e 0%, #0f1419 100%);
-            color: white;
-            padding: 4rem 2rem;
-            text-align: center;
-            margin-top: 80px;
-        }
-
-        .about-hero h1 {
-            color: white;
-            margin-bottom: 0.5rem;
-        }
-
-        .about-hero .subtitle {
-            color: #0066cc;
-            font-size: 1.2rem;
-        }
-
-        .about-main {
-            padding: 4rem 2rem;
-            background-color: white;
-        }
-
-        .about-content {
-            flex: 1;
-        }
-
-        .about-section {
-            margin-bottom: 4rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .about-section:last-child {
-            border-bottom: none;
-        }
-
-        .about-section h2 {
-            color: #1a1a2e;
-            margin-bottom: 1.5rem;
-        }
-
-        .about-section p {
-            line-height: 1.8;
-            color: #666;
-            margin-bottom: 1rem;
-        }
-
-        .edu-item,
-        .journey-item {
-            margin-bottom: 2rem;
-            padding: 1.5rem;
-            background-color: #f8f9fa;
-            border-left: 4px solid #0066cc;
-            border-radius: 4px;
-        }
-
-        .edu-item h3,
-        .journey-item h3 {
-            color: #0066cc;
-            margin-bottom: 0.5rem;
-        }
-
-        .edu-institute,
-        .edu-dates,
-        .journey-highlight {
-            color: #0066cc;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-
-        .edu-details {
-            color: #666;
-        }
-
-        .journey-item ul {
-            list-style-position: inside;
-            color: #666;
-            margin-top: 1rem;
-        }
-
-        .journey-item li {
-            margin-bottom: 0.5rem;
-        }
-
-        .competencies-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-        }
-
-        .competency-block {
-            background-color: #f8f9fa;
-            padding: 1.5rem;
-            border-radius: 8px;
-            border-top: 3px solid #0066cc;
-        }
-
-        .competency-block h4 {
-            color: #1a1a2e;
-            margin-bottom: 1rem;
-        }
-
-        .competency-block ul {
-            list-style-position: inside;
-            color: #666;
-        }
-
-        .competency-block li {
-            margin-bottom: 0.5rem;
-        }
-
-        .why-section p {
-            font-size: 1.05rem;
-            line-height: 1.9;
-            color: #555;
-        }
-
-        .achievements-list {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 1.5rem;
-        }
-
-        .achievement-item {
-            display: flex;
-            gap: 1.5rem;
-            padding: 1.5rem;
-            background-color: #f8f9fa;
-            border-radius: 8px;
-        }
-
-        .achievement-badge {
-            font-size: 2rem;
-            flex-shrink: 0;
-        }
-
-        .achievement-item h4 {
-            color: #1a1a2e;
-            margin-bottom: 0.5rem;
-        }
-
-        .achievement-item p {
-            color: #666;
-            margin-bottom: 0;
-        }
-
-        .fun-facts ul {
-            list-style-position: inside;
-            color: #666;
-        }
-
-        .fun-facts li {
-            margin-bottom: 1rem;
-            line-height: 1.6;
-        }
-
-        .about-sidebar {
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 2px solid #e0e0e0;
-        }
-
-        .quick-facts {
-            background-color: #f8f9fa;
-            padding: 2rem;
-            border-radius: 8px;
-            margin-bottom: 2rem;
-        }
-
-        .quick-facts h3 {
-            color: #0066cc;
-            margin-bottom: 1.5rem;
-        }
-
-        .facts-list {
-            list-style: none;
-        }
-
-        .facts-list li {
-            margin-bottom: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        .facts-list li:last-child {
-            border-bottom: none;
-        }
-
-        .facts-list strong {
-            color: #1a1a2e;
-            display: block;
-            margin-bottom: 0.25rem;
-        }
-
-        .facts-list span {
-            color: #0066cc;
-        }
-
-        .cta-sidebar {
-            background-color: #0066cc;
-            color: white;
-            padding: 2rem;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        .cta-sidebar h3 {
-            color: white;
-            margin-bottom: 1rem;
-        }
-
-        .cta-sidebar p {
-            color: white;
-            margin-bottom: 1.5rem;
-        }
-
-        @media (max-width: 768px) {
-            .about-main .container {
-                display: block;
-            }
-
-            .about-sidebar {
-                margin-top: 2rem;
-            }
-
-            .competencies-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
 </body>
 </html>
